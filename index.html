@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="main">
+      <div id="header">
+        <h1>Let's count your BMI</h1>
+      </div>
+      <div id="form">
+        <form>
+          <label>Enter your height in meters</label><br />
+          <input id="height" type="number" step=".01" /><br /><br />
+          <label>Enter your weight in kg</label><br />
+          <input type="number" id="weight" step=".01" /><br /><br />
+          <p type="submit" id="button" onclick="BMI()">Calculate</p>
+          <br /><br />
+        </form>
+      </div>
+      <p id="output1"></p>
+      <a href="index.html"><p>Clear the form</p></a>
+    </div>
+  </body>
+</html>
